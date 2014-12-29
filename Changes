@@ -1,0 +1,7 @@
+Release history for Mojolicious::Plugin::FormFieldsFromJSON::Date
+=================================================================
+
+0.01 2014-12-29
+
+  [INIT]
+  * allow additional type "date" for Mojolicious::Plugin::FormFieldsFromJSON
