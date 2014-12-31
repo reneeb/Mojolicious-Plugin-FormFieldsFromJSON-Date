@@ -1,6 +1,10 @@
 Release history for Mojolicious::Plugin::FormFieldsFromJSON::Date
 =================================================================
 
+  [TESTS]
+  * The tests worked only on Dec 29th, 2014. This is fixed now!
+  * Added tests for default values (defined in field config, via request, passed in method call and fallback)
+
 0.01 2014-12-29
 
   [INIT]
