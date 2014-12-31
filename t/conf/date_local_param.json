@@ -3,7 +3,6 @@
         "label" : "Name",
         "type" : "date",
         "name" : "name",
-        "data" : "2014-12-29",
         "startyear" : 2014
     }
  ]
