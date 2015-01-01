@@ -1,7 +1,7 @@
 package Mojolicious::Plugin::FormFieldsFromJSON::Date;
 use Mojo::Base 'Mojolicious::Plugin';
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 use Time::Piece;
 
@@ -50,6 +50,7 @@ sub Mojolicious::Plugin::FormFieldsFromJSON::_date {
 
     my $year = _year_dropdown(
         $c,
+        startyear => $field->{startyear},
         %{ $field->{attributes} || {} },
         %local_params,
         year => $selected->year,
