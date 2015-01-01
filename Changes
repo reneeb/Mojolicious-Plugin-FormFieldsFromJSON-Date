@@ -1,6 +1,8 @@
 Release history for Mojolicious::Plugin::FormFieldsFromJSON::Date
 =================================================================
 
+0.03 2015-01-01
+
   [BUGFIX]
   * pass startyear to year dropdown generation
 
