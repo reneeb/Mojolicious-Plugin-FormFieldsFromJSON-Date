@@ -36,11 +36,13 @@ my $today = localtime;
 
 my $year  = sprintf "%04d", $today->year;
 my $month = sprintf "%02d", $today->mon;
+my $mon   = $today->mon;
 my $day   = sprintf "%02d", $today->mday;
+my $mday  = $today->mday;
 
 like $content, qr/selected="selected" value="$year">$year</;
-like $content, qr/selected="selected" value="$month">$month</;
-like $content, qr/selected="selected" value="$day">$day</;
+like $content, qr/selected="selected" value="$month">$mon</;
+like $content, qr/selected="selected" value="$day">$mday</;
 
 done_testing();
 
