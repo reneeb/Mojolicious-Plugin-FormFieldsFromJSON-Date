@@ -1,4 +1,5 @@
 package Mojolicious::Plugin::FormFieldsFromJSON::Date;
+use 5.010
 use Mojo::Base 'Mojolicious::Plugin';
 
 our $VERSION = '0.03';
