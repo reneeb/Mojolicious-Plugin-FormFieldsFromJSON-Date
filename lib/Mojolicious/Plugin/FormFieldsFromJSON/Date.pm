@@ -3,7 +3,7 @@ package Mojolicious::Plugin::FormFieldsFromJSON::Date;
 use v5.10;
 use Mojo::Base 'Mojolicious::Plugin';
 
-our $VERSION = '0.04';
+our $VERSION = '1.00';
 
 use Time::Piece;
 
